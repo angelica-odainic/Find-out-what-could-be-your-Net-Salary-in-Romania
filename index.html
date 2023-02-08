@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Developer Skills & Editor Setup</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        background: linear-gradient(to top left, #28b487, #7dd56f);
+      }
+      h1 {
+        font-family: sans-serif;
+        font-size: 50px;
+        line-height: 1.3;
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        color: white;
+      }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!--
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <form>
+            <label for="gross">Gross Salary(EUR):</label>
+            <input type="number" class="searchfield" pattern="^[0-9]*$" />
+          </form><br>
+          <button onlclick="calcNetSal()" id="buton">Calculate</button>
+        </div>
+        <p id="result"></p>
+        <div class="col">
+          <h5>EMPLOYEE</h3>
+          <form>
+         
+         
+         <label class="spatiu">Gross Salary(EUR)</label>
+         <input type ="number" readonly > <br>
+         
+         <label class="spatiu">Asigurari Sociale(CAS):</label>
+         <input  type = "number" readonly><br> 
+
+         <label>Asigurari Sociale de Sanatate(CASS):</label>
+         <input type = "number" readonly><br>
+
+         <label>Deducere personala(DP):</label>
+         <input type = "number" readonly><br>
+
+         <label>Impozit pe venit(IV):</label>
+         <input type = "number" readonly><br>
+
+         <label>SALARIU NET:</label>
+         <input type = "number" readonly><br>
+          </form>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="container"></div>
+<p id="textfinal"></p>
+    
+    -->
+    
+   
+<div class="container-fluid">
+  <div class="row">
+    <div class="col">
+      <button class="again butonn">Try Again</button>
+    </div>
+</div><br><br>
+
+<div class="container-fluid">
+  <div class="row"><div class="col">
+    <div id="fulldiv">
+      <p> Enter your monthly Gross Salary, to calculate your Net Salary:</p>
+      <label for="txt_wage">Gross Salary(RON):</label>
+      <input type="text" name="wage" id="txt_wage" class="suma" value ="0.00"/>
+               
+        
+       <br/><br/>
+      <button value="calculate" onclick="calcSalary()" class="butonn">Calculate</button>
+      
+     </div>
+  </div></div>
+  
+</div>
+    
+
+<div class="container-fluid">
+  
+  <h5 id="results"></h5>
+</div>
+
+
+
+<script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+.rezultat {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.butonn{
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    background-color: bisque;
+}
+
+.butonn:hover{
+    background-color: white;
+    
+}
